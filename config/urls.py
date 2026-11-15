@@ -24,6 +24,7 @@ urlpatterns = [
     path('api/users/', include('apps.users.urls')),
     path('api/', include('apps.parks.urls')),
     path('api/', include('apps.accomodations.urls')),
+    path('api/', include('apps.routing.urls')),
 
 ]
 if settings.DEBUG:
